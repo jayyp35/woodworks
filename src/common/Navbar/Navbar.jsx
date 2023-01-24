@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dropdown } from 'semantic-ui-react'
+// import { Dropdown } from 'semantic-ui-react'
 
 import logo from '../../assets/nav-logo.svg';
 import './Navbar.scss';
@@ -13,7 +13,7 @@ function Nav() {
         <div className='Title'>WOODWORKS</div>
       </div>
       <div className='Center'>
-        <Dropdown text='Suppliers' icon="" style={{ margin: "0 -20px 5px 0px" }}>
+        {/* <Dropdown text='Suppliers' icon="" style={{ margin: "0 -20px 5px 0px" }}>
           <Dropdown.Menu style={{ width: "100%", marginTop: "20px" }}>
             <Dropdown.Item text='Coming Soon' />
           </Dropdown.Menu>
@@ -23,8 +23,14 @@ function Nav() {
           <Dropdown.Menu style={{ width: "100%", marginTop: "20px" }}>
             <Dropdown.Item text='Coming Soon' />
           </Dropdown.Menu>
-        </Dropdown>
+        </Dropdown> */}
 
+        <div className='Item'>
+          Suppliers
+        </div>
+        <div className='Item'>
+          Products
+        </div>
         <div className='Item'>
           About Us
         </div>
