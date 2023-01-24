@@ -1,0 +1,35 @@
+.Navbar {
+  background-color: rgba(0, 0, 0, 0.693);
+  height: 100px;
+  padding: 20px;
+  color: #e1d3b6;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .Left {
+    display: flex;
+    align-items: center;
+
+    .Title {
+      font-size: 26px;
+      font-weight: 600;
+      margin: 2px 0 0 20px;
+    }
+  }
+
+  .Center {
+    display: flex;
+    align-items: center;
+
+    &>div {
+      cursor: not-allowed;
+    }
+
+    .Item {
+      margin-left: 40px;
+
+    }
+  }
+}
