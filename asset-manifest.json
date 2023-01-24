@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/woodworks/static/css/main.3577384c.css",
+    "main.js": "/woodworks/static/js/main.db75d854.js",
+    "static/media/mont-heavy.otf": "/woodworks/static/media/mont-heavy.a1c041a8d8e27fc771db.otf",
+    "static/media/mont-light.otf": "/woodworks/static/media/mont-light.7500479912b782061a72.otf",
+    "static/media/works-2.gif": "/woodworks/static/media/works-2.8c9cfa9d9417e7596998.gif",
+    "static/media/nav-logo.svg": "/woodworks/static/media/nav-logo.411d58fc26e00f8c08d01e73e4ccd296.svg",
+    "index.html": "/woodworks/index.html",
+    "main.3577384c.css.map": "/woodworks/static/css/main.3577384c.css.map",
+    "main.db75d854.js.map": "/woodworks/static/js/main.db75d854.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3577384c.css",
+    "static/js/main.db75d854.js"
+  ]
+}
