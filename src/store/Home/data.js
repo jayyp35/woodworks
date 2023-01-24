@@ -19,9 +19,9 @@ export const home_cards = [
     text: "Get the shipment delivered right from your doorstep with minimal delays.",
     icon: logistics
   },
-  {
-    heading: "Financing",
-    text: "Tailor-made financing solutions for hassle free payments and easy transactions.",
-    icon: cash
-  },
+  // {
+  //   heading: "Financing",
+  //   text: "Tailor-made financing solutions for hassle free payments and easy transactions.",
+  //   icon: cash
+  // },
 ]
