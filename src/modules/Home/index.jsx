@@ -21,7 +21,7 @@ function Home() {
 
       <div className='Section2'>
         {home_cards.map((card, index) => (
-          <div className='Card'>
+          <div className='Card' key={index}>
             <div className='Heading'>
               <img src={card.icon} height="30px" alt="icon" />
               {card.heading}

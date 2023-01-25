@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, useLocation } from 'react-router-dom';
 
 import RootRoutes from './routes/RootRoutes';
 import Navbar from './common/Navbar/Navbar';
@@ -8,10 +8,11 @@ import './App.scss';
 
 
 function App() {
+
   return (
     <div className="App">
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <RootRoutes />
       </BrowserRouter>
     </div>
