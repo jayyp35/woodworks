@@ -205,7 +205,7 @@ body {
   flex-direction: column;
 }
 
-.page {
+.page-input {
   box-sizing: border-box;
   width: 100%;
   max-width: 480px;
