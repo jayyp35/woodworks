@@ -34,7 +34,28 @@
     border-top: 1px solid white;
 
     .Option {
-      margin-bottom: 30px;
+      padding: 12px 10px 10px 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .Selected {
+      background-color: rgba(255, 255, 255, 0.12);
+      border-radius: 4px;
+    }
+  }
+
+  .Options2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 10%;
+
+    .Option {
+      padding: 12px 10px 10px 10px;
+      border: 1px solid white;
+      border-radius: 4px;
+      cursor: pointer;
     }
   }
 }
