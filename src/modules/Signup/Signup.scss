@@ -23,7 +23,7 @@
     justify-content: center;
 
     .Container {
-      height: 600px;
+      // height: 600px;
       width: 500px;
       // border: 1px solid black;
       color: #000;
@@ -33,6 +33,29 @@
         margin-bottom: 10px;
         font-family: 'mont-bold';
         font-size: 40px;
+      }
+
+      .Selector {
+        margin: 10px 0 30px 0;
+        display: flex;
+        align-items: center;
+        background-color: rgb(81, 81, 81);
+        color: white;
+        padding: 5px;
+        border-radius: 8px;
+
+        .Option {
+          padding: 10px 20px;
+          width: 50%;
+          text-align: center;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+
+        .Selected {
+          background-color: black;
+
+        }
       }
 
       .Form {
