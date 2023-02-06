@@ -3,7 +3,9 @@ import './Supplier.scss';
 
 function Supplier() {
   return (
-    <div>Supplier</div>
+    <div className='Supplier'>
+      <div className='Top'>Welcome to your supplier dashboard, Jay!</div>
+    </div>
   )
 }
 
