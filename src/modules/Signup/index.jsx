@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 import logo from '../../assets/works-2.gif';
 import Input from '../../common/Input/Input';
+import Nav from '../../common/Navbar/Navbar';
 import './Signup.scss';
 
 function Signup() {

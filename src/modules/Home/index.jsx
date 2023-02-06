@@ -3,10 +3,12 @@ import Footer from '../../common/Footer/Footer';
 import homeLogo from '../../assets/works-2.gif';
 import { home_cards } from '../../store/Home/data';
 import './Home.scss';
+import Nav from '../../common/Navbar/Navbar';
 
 function Home() {
   return (
     <div className='Home'>
+      <Nav />
       <div className='Section1'>
         <img src={homeLogo} alt="homegif" height="400px" className='Logo' />
         <div className='Box'>
