@@ -4,4 +4,14 @@
     padding-bottom: 30px;
     border-bottom: 2px solid rgb(93, 93, 93);
   }
+
+  .Body {
+    .CardsContainer {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      column-gap: 50px;
+    }
+  }
 }
