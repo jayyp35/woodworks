@@ -28,7 +28,7 @@ function Signup({ isSignIn }) {
     setGst('')
   }, [selected])
 
-  const SupplierForm = () => {
+  const supplierForm = () => {
     return (
       <>
         <Input placeholder='Enter your full name' label="Name" value={name} onChange={val => setName(val)} style={{ marginTop: "40px" }} />
@@ -41,7 +41,7 @@ function Signup({ isSignIn }) {
     )
   }
 
-  const CustomerForm = () => {
+  const customerForm = () => {
     return (
       <>
         <Input placeholder='Enter your full name' label="Name" value={name} onChange={val => setName(val)} style={{ marginTop: "40px" }} />
@@ -53,7 +53,7 @@ function Signup({ isSignIn }) {
     )
   }
 
-  const SinginForm = () => {
+  const signInForm = () => {
     return (
       <>
         <Input placeholder='Enter your email address' label="Email" value={email} onChange={val => setEmail(val)} style={{ marginTop: "40px" }} />
@@ -96,11 +96,11 @@ function Signup({ isSignIn }) {
           <form className='Form' autoComplete='off'>
 
             {isSignIn ? (
-              <SinginForm />
+              <>{signInForm()}</>
             ) : selected === 1 ? (
-              <SupplierForm />
+              <>{supplierForm()}</>
             ) : (
-              <CustomerForm />
+              <>{customerForm()}</>
             )}
 
             {isSignIn ? (
