@@ -12,6 +12,7 @@ function RootRoutes() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path='/signup' element={<Signup />} />
+      <Route path='/signin' element={<Signup isSignIn />} />
 
       <Route path="/supplier" element={<SupplierRoutes />}>
         <Route path="/supplier/home" element={<Supplier />} />
