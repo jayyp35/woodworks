@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { Input } from 'semantic-ui-react';
 
 import logo from '../../../../assets/nav-logo.svg';
 import './ProductNavbar.scss';
@@ -23,11 +24,7 @@ function ProductNavbar() {
         <div className='Title'>WOODWORKS</div>
       </div>
       <div className='Center'>
-        <div className='Item'>
-          About Us
-        </div>
-
-        <div className='Item'>FAQs</div>
+        <Input fluid style={{ width: "100%" }} placeholder={"Search Products.."} />
       </div>
 
       <div className='Right'>

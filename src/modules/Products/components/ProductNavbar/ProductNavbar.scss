@@ -22,10 +22,8 @@
   .Center {
     display: flex;
     align-items: center;
+    width: 50%;
 
-    &>div {
-      cursor: not-allowed;
-    }
 
     .Item {
       margin-left: 40px;
