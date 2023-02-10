@@ -4,7 +4,7 @@ import Home from '../modules/Home';
 import Signup from '../modules/Signup';
 import Supplier from '../modules/Supplier';
 import List from '../modules/Supplier/pages/List';
-import Products from '../modules/Supplier/pages/Products';
+import Products from '../modules/Products';
 import SupplierRoutes from './SupplierRoutes';
 
 function RootRoutes() {
@@ -18,6 +18,10 @@ function RootRoutes() {
         <Route path="/supplier/home" element={<Supplier />} />
         <Route path="/supplier/products" element={<Products />} />
         <Route path="/supplier/list" element={<List />} />
+      </Route>
+
+      <Route path="/products/:category" element={<Products />}>
+        {/* <Route path="/products/:category" element={<></>} /> */}
       </Route>
     </Routes>
   )

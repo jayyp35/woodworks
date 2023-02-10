@@ -2,12 +2,12 @@ import React from 'react';
 import { product_categories } from '../../../../store/constants';
 
 import ProductCard from '../../../../common/ProductCard';
-import './Products.scss';
+import './SupplierProducts.scss';
 
-function Products() {
+function SupplierProducts() {
 
   return (
-    <div className='Products'>
+    <div className='SupplierProducts'>
       <div className='Top'>Your Products</div>
 
       <div className='Body'>
@@ -22,4 +22,4 @@ function Products() {
   )
 }
 
-export default Products;
+export default SupplierProducts;
