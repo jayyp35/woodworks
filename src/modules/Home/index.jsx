@@ -6,8 +6,15 @@ import './Home.scss';
 import Nav from '../../common/Navbar/Navbar';
 import { product_categories } from '../../store/constants';
 import ProductCard from '../../common/ProductCard';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+
+  const navigate = useNavigate();
+
+  const goToProductCategory = (key) => {
+    navigate(`/products/${key}`)
+  }
   return (
     <div className='Home'>
       <Nav />
@@ -27,7 +34,7 @@ function Home() {
         <div className='Heading'>Shop our Product Categories</div>
         <div className='CardsContainer'>
           {product_categories.map((product, index) => (
-            <ProductCard data={product} />
+            <ProductCard data={product} onClick={() => goToProductCategory(product.key)} />
           ))}
         </div>
       </div>

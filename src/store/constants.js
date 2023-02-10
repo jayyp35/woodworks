@@ -9,30 +9,35 @@ export const product_categories = [
     id: 1,
     name: "Flooring",
     description: "Wooden floors are one of the most popular surfaces due to versatility of function and design.",
-    icon: flooring
+    icon: flooring,
+    key: "flooring"
   },
   {
     id: 2,
     name: "Handrails",
     description: "All weather wooden handrails which enhance the overall beauty of your staircases.",
-    icon: handrails
+    icon: handrails,
+    key: "handrails"
   },
   {
     id: 3,
     name: "Doors",
     description: "Traditional and sturdy built wooden front and multi-utility doors.",
-    icon: door
+    icon: door,
+    key: "doors"
   },
   {
     id: 4,
     name: "Decks",
     description: "Robust wooden decks that let you enjoy your own time with superb reliability.",
-    icon: deck
+    icon: deck,
+    key: "decks"
   },
   {
     id: 5,
     name: "Boundary",
     description: "Strong reliable wooden boundary walls to protect your home and add privacy.",
-    icon: boundary
+    icon: boundary,
+    key: "boundary"
   }
 ]
