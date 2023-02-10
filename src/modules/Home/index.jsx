@@ -4,6 +4,8 @@ import homeLogo from '../../assets/works-2.gif';
 import { home_cards } from '../../store/Home/data';
 import './Home.scss';
 import Nav from '../../common/Navbar/Navbar';
+import { product_categories } from '../../store/constants';
+import ProductCard from '../../common/ProductCard';
 
 function Home() {
   return (
@@ -22,15 +24,12 @@ function Home() {
       </div>
 
       <div className='Section2'>
-        {home_cards.map((card, index) => (
-          <div className='Card' key={index}>
-            <div className='Heading'>
-              <img src={card.icon} height="30px" alt="icon" />
-              {card.heading}
-            </div>
-            <div className='Content'>{card.text}</div>
-          </div>
-        ))}
+        <div className='Heading'>Shop our Product Categories</div>
+        <div className='CardsContainer'>
+          {product_categories.map((product, index) => (
+            <ProductCard data={product} />
+          ))}
+        </div>
       </div>
 
       <div className='Section3'>
