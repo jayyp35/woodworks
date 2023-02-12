@@ -19,7 +19,7 @@ function ProductNavbar() {
 
   return (
     <div className='ProductNavbar'>
-      <div className='Left'>
+      <div className='Left' onClick={() => navigate('/')}>
         <img src={logo} alt="logo" height="50px" />
         <div className='Title'>WOODWORKS</div>
       </div>

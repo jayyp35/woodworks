@@ -1,7 +1,7 @@
 .ProductSidebar {
   height: calc(100vh - 80px);
   width: 200px;
-  padding: 20px;
+  padding: 30px;
   color: white;
   font-weight: 600;
   background: linear-gradient(to bottom, #ffffff, #ffffff);
@@ -9,7 +9,15 @@
   position: fixed;
   left: 0;
   top: 80px;
+  color: black;
 
+  .Heading {
+    border-bottom: 1px solid black;
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+  }
 
   .Logo {
     display: flex;
@@ -24,22 +32,6 @@
     }
   }
 
-  .Options {
-    height: 80%;
-    border-bottom: 1px solid white;
-
-    .Option {
-      padding: 12px 10px 10px 10px;
-      margin-bottom: 10px;
-      cursor: pointer;
-    }
-
-    .Selected {
-      background-color: rgba(255, 255, 255, 0.12);
-      border-radius: 4px;
-    }
-  }
-
   .Options2 {
     display: flex;
     flex-direction: column;
@@ -47,7 +39,6 @@
     height: 10%;
 
     .Option {
-      padding: 12px 10px 10px 10px;
       border: 1px solid white;
       border-radius: 4px;
       cursor: pointer;

@@ -15,17 +15,13 @@ function ProductSidebar() {
   }
   return (
     <div className='ProductSidebar'>
-      <div className='Options'>
-        <div className={`Option ${selected === 'home' ? "Selected" : ""}`} onClick={() => changeSelected('home')}>Home</div>
-        <div className={`Option ${selected === 'products' ? "Selected" : ""}`} onClick={() => changeSelected('products')}>Your Products</div>
-        <div className={`Option ${selected === 'list' ? "Selected" : ""}`} onClick={() => changeSelected('list')}>List Product</div>
-      </div>
+      <div className='Heading'>Filters</div>
 
-      <div className='Options2'>
+      {/* <div className='Options2'>
         <div className='Option'>Logout</div>
-      </div>
+      </div> */}
     </div>
   )
 }
 
-export default ProductSidebar
+export default ProductSidebar;
